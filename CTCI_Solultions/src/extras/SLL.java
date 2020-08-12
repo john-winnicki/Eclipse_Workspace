@@ -7,11 +7,11 @@ public class SLL
     public Node head;  // head of list 
   
     /* Linked list Node*/
-    public class Node 
+    public static class Node 
     { 
         public int data; 
         public Node next; 
-        Node(int d) {data = d; next = null; } 
+        public Node(int d) {data = d; next = null; } 
     } 
   
     /* Inserts a new Node at front of the list. */
